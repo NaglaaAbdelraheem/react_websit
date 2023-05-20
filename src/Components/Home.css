@@ -1,0 +1,40 @@
+.contair{
+    position: absolute;
+    width:100%;
+    height: 363.99px;
+    left: 0px;
+    top: 94.01px;
+    background: #FE8A00;
+    text-align:center;
+    }
+    h1{  
+    position: absolute;
+    width: 367.91px;
+    height: 101.11px;
+    transform: translate(100%, -100%);
+    /* left: 50px;
+    top: 200px; */
+    left: 5%;
+    top: 50%;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+    .mf{
+    position: absolute;
+    right: 0px;
+    top: 0%;
+    bottom: 0%;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    .ms{
+     position: absolute;
+     left: 0px;
+     top: 0%;
+     bottom: 0%;
+        
+    }

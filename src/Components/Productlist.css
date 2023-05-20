@@ -1,0 +1,103 @@
+body{
+    background: #eee;
+}
+h2{
+    
+position: absolute;
+width: 368px;
+height: 59px;
+
+transform: translate(100%, -100%);
+/* left: 50px;
+top: 200px; */
+left: 5%;
+top: 90%;
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 50px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.75);
+}
+
+.box-container{
+    position: relative;
+    top: 530px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.box-container .box{
+    width: 320px;
+    height: 320px;
+    margin:5px;
+
+    /* overflow: hidden; */
+}
+
+ .box-container .image img{
+    width: 100%;
+    border-radius: 16px;
+    height: 70%;
+    object-fit: cover;
+    color:#eee;
+}
+.box-container  .icons{
+position: relative;
+width: 42px;
+height: 42px;
+left:80%;
+top: 50px;
+background: #161616;
+border-radius: 21px;
+}
+.box-container  .icons a{
+position:absolute;
+left: 21%;
+right: 77.43%;
+top: 40.71%;
+bottom: 58.32%;
+color:#eee;
+text-decoration: none;
+
+}
+.box-container  .icons a:hover{
+    color:red;
+}
+.box-container .box h3{
+position: absolute;
+width: 320px;
+height: 20px;
+left: 32px;
+top: 1388px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+
+color: rgba(0, 0, 0, 0.75);
+
+}
+.box-container  h3 span{
+    position: absolute;
+width: 34px;
+height: 25px;
+left: 318px;
+top: 1388px;
+
+font-family: 'Outfit';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 25px;
+text-align: right;
+
+color: rgba(0, 0, 0, 0.75);
+
+}

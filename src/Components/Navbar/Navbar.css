@@ -1,0 +1,14 @@
+
+.logo{
+    position: absolute;
+    width: 338.55px;
+    height: 52px;
+    left: 30px;
+    top: 21px;
+    }
+    .login{  
+    position:absolute;
+    right: 30px;
+    top: 30px;
+    bottom: 16.67%;
+    }
